@@ -62,8 +62,6 @@ def make_division(divider : float):
 
 
 if __name__ == '__main__':
-    # funcion = saludar_usuario("Erick")
-    # funcion()
     divider = float(input("Ingrese un divisor: "))
     dividend = float(input("Ingrese un dividento: "))
     division = make_division(divider)
